@@ -1,0 +1,108 @@
+@import url(top-hero.css);
+@import url(banner.css);
+@import url(badge.css);
+@import url(art.css);
+@import url(blog.css);
+@import url(footer.css);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    
+    background-color: rgba(55, 61, 73, 0.975);
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+.logo{
+    font-size: 0.6em;
+    
+    color: white;
+
+}
+span ul li{
+    
+    list-style: none;
+    padding: 10px;
+    font-size: 0.9em;
+    font-weight: 10px;
+    color: white;
+}
+span ul{
+   
+    display: flex;
+    margin-left: 10px;
+    padding-left: 0%;
+}
+#navbar ul{
+    border: 1px solid #676d79;
+    border-radius: 5px;
+}
+#navbar .active{
+    background-color: #676d79;
+}
+
+
+#navbar ul li:hover{
+    background-color: #474d59;
+    cursor: pointer;
+}
+
+#red ul{
+    border: 1px solid #676d79;
+    border-radius: 5px;
+}
+
+#main #red ul:hover{
+ border-color: #e7746f;
+}
+
+   #main #red ul li:hover{
+    color: #e7746f;
+    
+    
+   }
+   #like {
+    margin-left: 550px;
+   }
+   #like ul{
+    border: 1px solid #676d79;
+    border-radius: 5px;
+   }
+   #like ul li a{
+    color: #676d79;
+    text-decoration-line: underline;
+    text-decoration-style: dotted ;
+    text-decoration-color: lemonchiffon;
+
+}
+#like ul li .btn{
+    background-color: #007FFF;
+    border-radius: 3px;
+    border: 1px solid #007FFF;
+    color: white;
+    width: 60px;
+
+}
+#like ul li .btn2{
+    background-color: #007FFF;
+    border-radius: 50px;
+    border: 1px solid #007FFF;
+    color: white;
+    width: 70px;
+
+}
+
+#button ul li{
+    background-color: #e7746f;
+    border: 1px solid #e7746f;
+    border-radius: 5px;
+
+}

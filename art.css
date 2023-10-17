@@ -1,0 +1,54 @@
+#art{
+    background-color: whitesmoke;
+}
+
+ #heading1{
+    text-align: center;
+    font-size: 30px;
+}
+
+#art h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+    
+}
+
+.portfolio{
+    width: 350px;
+    background-color: white;
+    border: 1px solid white;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    
+}
+.space{
+    margin-left: 200px;
+}
+.portfolio img{
+    height: 15em;
+}
+.portfolio p{
+    padding-left: 30px;
+    padding-right: 20px;
+    color: #5d5d5d;
+}
+.portfolio .portB{
+    padding: 15px 30px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+
+}
+#flexing{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+}
